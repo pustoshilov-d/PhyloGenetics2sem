@@ -1,0 +1,4 @@
+#!/bin/sh
+ (echo R > /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f/__time__) &&
+ (cd /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f && /home/student6/miniconda3/envs/phylo_new/bin/ete3_apps/bin/clustalo --threads 1 -i /home/student6/02.BioinfFilogenetika/5/input/ae062097317c03a80ee49c6e1ffd175c.100 -o clustalo_alg.fasta --outfmt fa && (echo D > /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f/__status__; ) || (echo E > /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f/__status__; ));
+ date +'%a %b %d %H:%M:%S %Y' >> /home/student6/02.BioinfFilogenetika/5/tasks/b0e91dda19ea09b88917024ac23a156f/__time__; 

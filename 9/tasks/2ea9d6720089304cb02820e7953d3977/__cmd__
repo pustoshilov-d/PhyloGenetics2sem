@@ -1,0 +1,4 @@
+#!/bin/sh
+ (echo R > /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977/__time__) &&
+ (cd /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977 && /home/student6/miniconda3/envs/phylo_new/bin/ete3_apps/bin/phyml --model JTT --no_memory_check  --quiet  --pinv e --alpha e --nclasses 4 -o tlr -f m --bootstrap -2 --datatype aa --input 1829e6515ae0cb2474a7727f3739df09 && (echo D > /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977/__status__; ) || (echo E > /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977/__status__; ));
+ date +'%a %b %d %H:%M:%S %Y' >> /home/student6/02.BioinfFilogenetika/9/tasks/2ea9d6720089304cb02820e7953d3977/__time__; 

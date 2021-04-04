@@ -1,0 +1,4 @@
+#!/bin/sh
+ (echo R > /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422/__time__) &&
+ (cd /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422 && /home/student6/miniconda3/envs/phylo_new/bin/ete3_apps/bin/trimal -in /home/student6/02.BioinfFilogenetika/9/input/c3db563d4a0adee2b011eb47b5e51031.200 -out clean.alg.fasta -fasta  -colnumbering  -gappyout  && (echo D > /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422/__status__; ) || (echo E > /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422/__status__; ));
+ date +'%a %b %d %H:%M:%S %Y' >> /home/student6/02.BioinfFilogenetika/9/tasks/45c557ec76ee5256b104085609ed9422/__time__; 

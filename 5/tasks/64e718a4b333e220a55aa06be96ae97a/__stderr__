@@ -1,0 +1,21 @@
+FastTree Version 2.1.8 Double precision (No SSE3), OpenMP (1 threads)
+Alignment: /home/student6/02.BioinfFilogenetika/5/input/c86e8cc74dc99bfd435f5a602adc7f78
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+Initial topology in 0.12 seconds
+Refining topology: 29 rounds ME-NNIs, 2 rounds ME-SPRs, 14 rounds ML-NNIs
+Total branch-length 18.731 after 1.22 sec
+ML-NNI round 1: LogLk = -65656.233 NNIs 17 max delta 14.48 Time 3.64
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.105 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -60994.591 NNIs 5 max delta 6.22 Time 6.80
+ML-NNI round 3: LogLk = -60991.494 NNIs 1 max delta 1.86 Time 7.72
+ML-NNI round 4: LogLk = -60991.441 NNIs 0 max delta 0.00 Time 7.97
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 5: LogLk = -60991.332 NNIs 3 max delta 0.00 Time 9.97 (final)
+Optimize all lengths: LogLk = -60991.322 Time 10.52
+Total time: 12.10 seconds Unique: 149/214 Bad splits: 0/146

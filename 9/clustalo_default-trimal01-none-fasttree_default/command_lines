@@ -1,0 +1,1 @@
+Sun Apr  4 21:04:09 2021	6bdbf16ca3d956c0f8ce3bd2d02100e6	False	/home/student6/miniconda3/envs/phylo_new/bin/ete3 -w clustalo_default-trimal01-none-fasttree_default --cogs /mnt/Data10tb/student6/phylogen/COG_9prot.txt -a /mnt/Data10tb/student6/phylogen/9prot.fasta -o /home/student6/02.BioinfFilogenetika/9/ --clearall

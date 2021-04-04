@@ -1,0 +1,4 @@
+#!/bin/sh
+ (echo R > /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10/__status__ && date +'%a %b %d %H:%M:%S %Y' > /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10/__time__) &&
+ (cd /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10 && export OMP_NUM_THREADS=1; /home/student6/miniconda3/envs/phylo_new/bin/ete3_apps/bin/FastTree -nopr  /home/student6/02.BioinfFilogenetika/2/input/157ba3275128d78987593b45deaa42a3  && (echo D > /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10/__status__; ) || (echo E > /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10/__status__; ));
+ date +'%a %b %d %H:%M:%S %Y' >> /home/student6/02.BioinfFilogenetika/2/tasks/6b1b91c63c12eb3470caff55beb4ea10/__time__; 
